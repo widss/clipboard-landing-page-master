@@ -1,0 +1,146 @@
+/*******************import*******************/
+
+/*******************tag*******************/
+body{
+	background-image: url('images/bg-header-desktop.png');
+	background-repeat: no-repeat;
+}
+p, {
+	margin-top: 1.5rem;
+}
+
+/*******************class*******************/
+/*positioning*/
+.head, .logo-img, .snippets,.access,.devices,.workflow,.company,.bottom{
+	text-align: center;
+}
+.head, .snippets, .access,.bottom{
+	width: 50%;
+	margin: 10rem auto;
+}
+.logo-img{
+	margin-bottom: 3rem;
+}
+.head p, .snippets p, .access p, .workflow p, .bottom p{
+	margin-top: 2rem;
+}
+.head p, .bottom p{
+	margin bottom: 2rem;
+}
+/*features*/
+.computer-img{
+	position: relative;
+	right: 5rem;
+}
+.features-2{
+	padding: 10rem;
+}
+
+/*workflow*/
+.workflow .row img{
+	margin: 3rem auto;
+}
+.workflow{
+	padding: 5rem;
+}
+
+.workflow .row img:hover,h2:hover,h3:hover,h4:hover,.company img:hover{
+	opacity: 90%;
+}
+/*company*/
+.company img{
+	margin: 4rem 2.5rem 4rem 2.5rem;
+}
+.company.row{
+	text-align: center;
+}
+/*footer*/
+.footer{
+	background-color:#f5f6f8;
+	padding: 2rem 2.5rem;
+}
+.logo{
+	transform: scale(0.5);
+}
+.row-2 {
+	margin-top: 2.5rem;
+}
+.logos{
+	margin: auto 1rem;
+}
+
+/*button*/
+#button-1, #button-2{
+	padding: 2% 5%;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	margin: 10px auto;
+}
+#button-1{
+	background-color: hsl(171, 66%, 44%);
+}
+#button-2{
+	background-color: hsl(233, 100%, 69%);
+}
+/*******************id***********************/
+/*workflow*/
+#blacklists-img{
+	margin-bottom: 40px;
+}
+/*******************Querries*******************/
+/*@media (max-width: 990px){
+	body{
+		text-align: center;
+	}
+	.head, .snippets, .access,.bottom{
+		width: 75%;
+		margin: 2rem auto;
+
+	}
+
+
+	.features{
+		text-align: center;
+	}	
+	.computer-img{
+		display: block;
+		transform: scale(0.5);
+		align-items: center;
+		text-align: justify;
+		margin: auto;	
+		right: 40%;
+
+	}
+	.features-2{
+	padding: 1rem 4rem;
+	margin-top: -5rem;
+	}
+
+	.devices{
+		transform: scale(0.5);
+		text-align: center;
+		display: flex;
+		align-items: center;
+		position: relative;
+		right: 35%;
+	}
+	.row{
+		margin-top: -2rem;
+	}
+	.company img{
+
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.company{
+		margin-bottom: auto;	}
+
+}
+@media(max-width: 50px){
+	.computer-img{
+		right: 50%;
+	}
+}*/
